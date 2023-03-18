@@ -3,7 +3,7 @@ from binance.client import Client
 import pandas as pd
 import datetime, time
 
-client = Client("N1bdAy2zDhBWbfT9ieoO8vEEWoMxjP5gHGwZ1SVuUcUXIAh26kW1edB1FRYQPrA3", "ymu8l74h2druNeQPLN71HQdPpxBymx5vPeapy9CK1XeHi68pBT9YdsQD7WX6yKEF")
+client = Client("YOUR api_key", "YOUR api_secret")
 
 def get_data(howLong, curr, interval = "1d"):
     candle = []
